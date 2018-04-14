@@ -23,6 +23,10 @@ Open this url in your browser http://localhost:8080
 
 ### Rest APIs
 
+X-AUTH-TOKEN header must be added for all the endpoints starting with **/api**
+
+X-AUTH-TOKEN is retrieved using login credentials service **/login** 
+
 ```sh
 GET  /login - login credentials
 GET  /api/customer - get all customers
