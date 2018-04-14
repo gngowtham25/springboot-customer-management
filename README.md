@@ -25,7 +25,7 @@ Open this url in your browser http://localhost:8080
 
 ```sh
 GET  /login - login credentials
-GET  /customer - get all customers
-POST /customer - add a customer
-GET  /customer/{id} - retrieves customer by ID
+GET  /api/customer - get all customers
+POST /api/customer - add a customer
+GET  /api/customer/{id} - retrieves customer by ID
 ```
