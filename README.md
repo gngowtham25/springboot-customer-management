@@ -27,6 +27,8 @@ X-AUTH-TOKEN header must be added for all the endpoints starting with **/api**
 
 X-AUTH-TOKEN is retrieved using login credentials service **/login** 
 
+You must add username and password as **admin** in the user table in order to get Auth Token
+
 ```sh
 GET  /login - login credentials
 GET  /api/customer - get all customers
